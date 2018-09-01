@@ -117,40 +117,88 @@ body {
     position: relative;
     height: 700px;
     /* width: 400px; */
-    background: darkgray;
+    background: #ffffff;
   }
   
   .box {
-    /* relative positioning */
     position: relative;
     width: 200px;
     height: 150px;
-    background: #2db34a;
+    /* background: #2db34a; */
     border: 1px solid black;
-    /* background-size: auto; */
+    font-size: 18px;
+    
   }
-  
-  /* .box-1 {
-    top: 20px;
-  } */
   
   .box-3 {
     left: -450px;
-    bottom: -170px;
+    bottom: -190px;
   }
   
   .box-4 {
     left: -450px;
-    bottom: -170px;
+    bottom: -190px;
     /* float: left */
   }
 
   .box-5 {
-    bottom: -160px;
-    /* background-image: url(../images/rockpapaerscissors.jpeg; */
-    /* <img src="assets/images/IBayon.JPG" alt="Isaac is out to lunch!" */
-    /* background-image: url(../images/rockpapaerscissors.jpeg); */
-  }
+    bottom: -200px;
+    }
+
+.label-1 {
+    left: -225px;
+    bottom: 95px;
+    height: 55px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 15px 15px;
+}
+
+.label-2 {
+    left: -225px;
+    bottom: 95px;
+    height: 55px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 15px 15px;
+}
+
+.label-3 {
+    left: -675px;
+    bottom: -95px;
+    height: 55px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 15px 15px;
+}
+
+.label-4 {
+    left: 0px;
+    bottom: -10px;
+    height: 55px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 15px 15px;
+}
+
+.label-5 {
+    left: -450px;
+    bottom: -200px;
+    height: 55px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 15px 15px;
+}
   
   footer { 
     background-color:#666666;
