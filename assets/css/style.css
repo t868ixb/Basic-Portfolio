@@ -152,17 +152,6 @@ body {
     bottom: -200px;
     }
 
-.label-1 {
-    left: -225px;
-    bottom: 95px;
-    height: 55px;
-    color: #ffffff;
-    background-color: #4aaaa5;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
-    padding: 15px 15px;
-}
-
 input {
     width: 100%;
     height: 30px;
@@ -186,9 +175,21 @@ button {
     width: 125px;
     height: 45px;
     color: #ffffff;
-   font-size: 18;
+   font-size: 20px;
     /* padding: 25px 15px; */
     margin: 20 auto 0 auto;
+}
+.label-1 {
+    left: -225px;
+    bottom: 95px;
+    height: 55px;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 15px 15px;
+    width: "198";
+    height: "74";
 }
 
 .label-2 {
@@ -200,6 +201,8 @@ button {
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     padding: 15px 15px;
+    width: "198";
+    height: "74";
 }
 
 .label-3 {
@@ -211,6 +214,8 @@ button {
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     padding: 15px 15px;
+    width: "198";
+    height: "74";
 }
 
 .label-4 {
@@ -222,6 +227,8 @@ button {
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     padding: 15px 15px;
+    width: "198";
+    height: "74";
 }
 
 .label-5 {
@@ -233,8 +240,14 @@ button {
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     padding: 15px 15px;
+    width: "198";
+    height: "74";
 }
-  
+.footer,
+.push {
+  height: 200px;
+}
+
   footer { 
     background-color:#666666;
     color:  #ffffff;
