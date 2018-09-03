@@ -1,27 +1,25 @@
 /* Isaac Bayon - style sheet for Homework 1 Due 9/5/18 */
 * {
     box-sizing: border-box;
-    /* text-align: center; */
   }
+
   /* formatting for the "name" box */
   .headerdiv {
     background-color: #4aaaa5;
     width: 250px;
     height: 65px;   
-    /* border: 10px solid green; */
     padding: 15px 15px 15px 15px;
     margin: 0px 25px 0px 190px;
     float: left;
     font-size: 35px;
     color: #ffffff;
     text-align: center;
-    position: relative;
-    
+    position: relative; 
 }
+
 /* formattting for the navigation menu */
 .topnav {
     background-color: #ffffff;
-    /* background-color: rgb(46, 224, 18); for testing */
     list-style-type: none;
     margin: 13px 25px 10px 210px;
     padding: 5px 5px 5px 5px;
@@ -36,10 +34,6 @@ a {
     color: #777777;
 }
 
-.label-1 {
-    color: #ffffff;
-}
-
 /* mouse over link */
 a:hover {
     color: lightseagreen ;
@@ -51,20 +45,14 @@ a:active {
 
 /* formatting for the header where name and menu live */
 header {
-    /* margin-bottom: 10px; */
-    /* color:  #777777; */
     background:#ffffff;
-    /* overflow: hidden; */
     width: 100%;
     height: 70px;
-    /* position: fixed; */
-    /* padding: 0px 0px 10px 0px; */
     margin: 0px 0px 15px 0px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     border-bottom: 5px solid #cccccc;
-    /* border-bottom: 5px solid #e01010; */
-
   }
+
   /* formatting for the body of the web page */
 body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -74,54 +62,47 @@ body {
     /* margin: 0 150px; */
     background-color: lightgray;
   }
+  
   /* formatting for paragraphs */
   p {
       text-align: left;
       color:  #777777;
   }
+
   /* formatting for the picture */
   figure {
         display: block;
-        /* margin-top: 15px;
-        margin-bottom: 15px;
-        margin-left: 15px;
-        margin-right: 15px; */
         float: left;
         margin: 15px 25px 15px 0px;
-        /* margin: auto auto; */
-       
   }
+
   /* formatting for the container div */
   .container {
     width: 100%;
     height: 100%;
-    /* border: 10px solid green; */
   }
 
   /* formatting for the wrapper div */
   .wrapper {
-      /* margin: 0 auto 0 auto; */
       margin:50px auto 0px;
       max-width: 960px;
       background-color: #ffffff;
       padding: 10px 25px 10px 25px;
-      /* border-color: #ffffff; */
       border: 3px solid #dddddd;
   }
+
   h1 {
       text-align: left;
-      /* margin-bottom: 200px; */
       margin: 0 auto 0 auto;
       padding: 25px 25px 15px 0px;
       color: #4aaaa5;
       font-family: Georgia, 'Times New Roman', Times, serif; 
       font-size: 35px;
-      /* height: 70px; */
   }
+
   .box-set {
     position: relative;
     height: 700px;
-    /* width: 400px; */
     background: #ffffff;
   }
   
@@ -129,11 +110,8 @@ body {
     position: relative;
     width: 200px;
     height: 150px;
-    /* background: #2db34a; */
     border: 1px solid black;
     font-size: 18px;
-    /* color: #ffffff; */
-    
   }
   
   .box-3 {
@@ -145,18 +123,16 @@ body {
   .box-4 {
     left: -450px;
     bottom: -190px;
-    /* float: left */
   }
 
   .box-5 {
     bottom: -200px;
     }
-
+/* formatting for contact page */
 input {
     width: 100%;
     height: 30px;
     color: #777777;
-    /* border-color: red; */
     opacity: .40;
 }
 
@@ -176,9 +152,10 @@ button {
     height: 45px;
     color: #ffffff;
    font-size: 20px;
-    /* padding: 25px 15px; */
     margin: 20 auto 0 auto;
 }
+
+/* formatting for portfolio page */
 .label-1 {
     left: -225px;
     bottom: 95px;
@@ -243,6 +220,8 @@ button {
     width: "198";
     height: "74";
 }
+
+/* formatting for footer */
 .footer,
 .push {
   height: 200px;
@@ -258,7 +237,6 @@ button {
     border-top: 5px solid #4aaaa5; 
     height: 60px; /*footer height*/
     display: block;
-    /* margin: 0 auto 0 auto; */
     margin-top: 20px;
     margin-bottom: 0px;
     box-sizing: border-box;
