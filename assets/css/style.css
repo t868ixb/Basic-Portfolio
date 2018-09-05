@@ -68,6 +68,18 @@ body {
       text-align: left;
       color:  #777777;
   }
+ /* formatting for unordered list */
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    color: #777777
+}
+
+li {
+    float: center;
+}
 
   /* formatting for the picture */
   figure {
